@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentación Odoo</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Documentación de instalación y gestión en Odoo</h1>
+  </header>
+
+  <section>
+    <h2>Creación de la cuenta y base de datos</h2>
+    <p>
+      Una vez tenemos hecha la cuenta en Odoo crearemos una base de datos para que se guarde la información que registraremos en nuestra página web.
+    </p>    
+    <img src="./img/creacionBBDD.png" alt="Creación de la Base de Datos">
+  </section>
+
+  <section>
+    <h2>Inicio de sesión y selección de módulos</h2>
+    <p>
+      Cuando hayamos creado nuestra cuenta y nuestra base de datos iniciaremos sesión y nos llevará a una página desde donde podemos elegir los módulos a instalar. Estos módulos permiten que nuestra página sea interactiva y funcional. Podemos añadir tantos como queramos.
+      <img src="./img/modulos.png" alt="Modulos">
+    </p>    
+    <p>
+      Una vez elegimos la temática, colores y distribución de nuestra página, la guardamos y obtendremos una vista previa del resultado. 
+    </p>
+    <img src="./img/1creacion.png" alt="Temática">    <img src="./img/2creacion.png" alt="Temática">    <img src="./img/3creacion.png" alt="Temática">    <img src="./img/4creacion.png" alt="Temática">    <img src="./img/5creacion.png" alt="Temática">
+  </section>
+
+  <section>
+    <h2>Módulo de comercio electrónico</h2>
+    <p>
+      En este caso hemos elegido un módulo de comercio electrónico que incluye una tienda y planes de precios. Este módulo permite registrar en la base de datos las compras, cantidades y precios, facilitando enormemente la gestión de ventas y edición de la web.
+    </p>
+    <img src="./img/modulo1.png" alt="Modulo">    <img src="./img/modulo2.png" alt="Modulo">
+    <p>
+      Para volver al menú de módulos, se debe hacer clic en el icono de cuadrados arriba a la izquierda y seleccionar "Aplicaciones" o "Sitio web" para volver a la página principal.
+    </p>
+    <img src="./img/menu.png" alt="Menú">
+
+  </section>
+
+  <section>
+    <h2>Copia de seguridad de la base de datos</h2>
+    <p>
+      Para realizar un backup accedemos a: <strong>http://localhost:8069/web/database/manager</strong> e iniciamos sesión.
+    </p>
+    <img src="./img/URL.png" alt="URL">
+    <p>
+      Una vez dentro, seleccionamos la base de datos deseada y hacemos clic en el botón <strong>Backup</strong>. 
+    </p>
+    <img src="./img/backup.png" alt="Back Up">
+    <p>
+      El sistema nos pedirá:
+    </p>
+    
+    <ul>
+      <li>Nombre del archivo de copia</li>
+      <li>Formato del backup</li>
+      <li>Contraseña Master</li>
+    </ul>
+    <img src="./img/OpcionesBack.png" alt="Back Up">
+    <p>
+      Tras completar el formulario, se descargará el archivo con la copia de seguridad.
+    </p>
+    <img src="./img/descarga.png" alt="Descarga Zip">
+
+  </section>
+
+  <section>
+    <h2>Restauración de la base de datos</h2>
+    <p>
+      Si necesitamos restaurar una base de datos, vamos de nuevo a <strong>http://localhost:8069/web/database/manager</strong> y pulsamos en <strong>"Restore Database"</strong>.
+    </p>
+    <img src="./img/restaurar.png" alt="Restaurar Base de Datos">
+    <p>
+      Introducimos la contraseña master, subimos el archivo de backup, damos un nuevo nombre a la base de datos y completamos el proceso. La base de datos quedará restaurada correctamente.
+    </p>
+    <img src="./img/resturacion.png" alt="Base de Datos Hecha">
+  </section>
+  <section>
+    <h2>Conclusiones</h2>
+    <p>
+      
+    </p>
+  </section>
+</body>
+</html>
